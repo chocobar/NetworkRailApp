@@ -1,4 +1,6 @@
-import rail.client.StationCodes;
+package trains;
+
+import rail.trains.StationCodes;
 import org.junit.Assert;
 import org.junit.Test;
 

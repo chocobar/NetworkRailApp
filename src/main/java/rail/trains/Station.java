@@ -1,4 +1,4 @@
-package rail.client;
+package rail.trains;
 
 /**
  * Created by priya on 14/08/2014.

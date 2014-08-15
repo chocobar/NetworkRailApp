@@ -1,3 +1,5 @@
+package client;
+
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.json.JSONArray;
@@ -5,9 +7,9 @@ import static org.hamcrest.Matchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Assert;
 import org.junit.Test;
-import rail.client.DateTimeUtils;
+import utils.DateTimeUtils;
 import rail.client.MyListener;
-import rail.client.TrainInformation;
+import rail.trains.TrainInformation;
 
 import java.util.List;
 
@@ -33,7 +35,7 @@ public class MyListenerTests {
         assertThat(trains, hasItems(
                 new TrainInformation("871W92MR13", "ARRIVAL", "87911", DateTimeUtils.getTimeFromTimeStamp("1407945630000"), DateTimeUtils.getTimeFromTimeStamp("1407945720000"), "87903", false),
                 new TrainInformation("871T30MO13", "ARRIVAL", "62203", DateTimeUtils.getTimeFromTimeStamp("1407945750000"), DateTimeUtils.getTimeFromTimeStamp("1407945720000"), "62201", false)
-                ));
+        ));
     }
 
     @Test

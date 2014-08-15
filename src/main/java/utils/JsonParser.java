@@ -1,4 +1,4 @@
-package rail.client;
+package utils;
 
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;

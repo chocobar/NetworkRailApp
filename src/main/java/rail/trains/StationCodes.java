@@ -1,9 +1,9 @@
-package rail.client;
+package rail.trains;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import utils.JsonParser;
 
-import java.io.InputStream;
 import java.net.URL;
 
 /**

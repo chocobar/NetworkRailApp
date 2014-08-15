@@ -1,4 +1,6 @@
-import rail.client.TrainInformation;
+package trains;
+
+import rail.trains.TrainInformation;
 import org.joda.time.DateTime;
 import org.joda.time.Seconds;
 import org.junit.Assert;

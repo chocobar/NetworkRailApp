@@ -1,4 +1,4 @@
-package rail.client;
+package utils;
 
 import org.joda.time.*;
 import org.joda.time.format.DateTimeFormat;

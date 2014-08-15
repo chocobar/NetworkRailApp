@@ -1,8 +1,9 @@
-package rail.client;
+package rail.trains;
 
 import org.joda.time.DateTime;
 import org.joda.time.Period;
 import org.joda.time.Seconds;
+import utils.DateTimeUtils;
 
 
 /**

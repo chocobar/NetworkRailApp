@@ -1,4 +1,6 @@
-import rail.client.DateTimeUtils;
+package utils;
+
+import utils.DateTimeUtils;
 import org.joda.time.DateTime;
 import org.junit.Assert;
 import org.junit.Test;
