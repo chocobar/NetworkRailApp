@@ -3,12 +3,16 @@ package rail.client;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.InputStream;
+import java.net.URL;
+
 /**
  * Created by priya on 13/08/2014.
  */
 public class StationCodes {
 
-    private static final String stationCorpus = "/Users/prichand/programming/NetworkRailApp/src/main/resources/CORPUSExtract.json";
+//    private static final String stationCorpus = "resources/CORPUSExtract.json";
+    private static final URL stationCorpus = StationCodes.class.getClassLoader().getResource("CORPUSExtract.json");
 
 
     private final JSONObject stationCodes;
@@ -18,7 +22,7 @@ public class StationCodes {
     }
 
     public static JSONObject getStationData() {
-        String jsonTxt = JsonParser.getJsonFromFile(stationCorpus);
+        String jsonTxt = JsonParser.getJsonFromInputStream(stationCorpus);
         return new JSONObject(jsonTxt);
     }
 

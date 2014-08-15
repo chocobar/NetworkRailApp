@@ -1,0 +1,192 @@
+{"TIPLOCDATA": [
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "MPTE HQ INPUT",
+        "TIPLOC": " ",
+        "NLC": "800",
+        "NLCDESC": "MERSEYRAIL ELECTRICS-HQ INPUT"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "CAPRI HQ INPUT",
+        "TIPLOC": " ",
+        "NLC": "900",
+        "NLCDESC": "AUTHORISED INPUT LOCATION 0009"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "TFLC INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "1700",
+        "NLCDESC": "TFLC INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "ATOS C INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "1800",
+        "NLCDESC": "ATOS C INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "HQ INPUT TTL OS",
+        "TIPLOC": " ",
+        "NLC": "1900",
+        "NLCDESC": "HQ INPUT TTL OPEN SCHEME"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "LUL THRU TICKETS",
+        "TIPLOC": " ",
+        "NLC": "2000",
+        "NLCDESC": "LUL THROUGH TICKET ISSUES"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "TFLA INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "2100",
+        "NLCDESC": "TFLA INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "TFLB INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "2200",
+        "NLCDESC": "TFLB INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "ATOC INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "2300",
+        "NLCDESC": "ATOC INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "ATOS INTERFACE",
+        "TIPLOC": " ",
+        "NLC": "2400",
+        "NLCDESC": "ATOS INTERFACE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "HQ INPUT TTL CS",
+        "TIPLOC": " ",
+        "NLC": "2500",
+        "NLCDESC": "HQ INPUT TTL CLOSED SCHEME"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "HQ INPUT SPARE",
+        "TIPLOC": " ",
+        "NLC": "2600",
+        "NLCDESC": "HQ INPUT TTL INWARD SPARE"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": "HQINPUT CHILTERN",
+        "TIPLOC": " ",
+        "NLC": "2700",
+        "NLCDESC": "HQ INPUT TTL CHILTERN"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": " ",
+        "NLC": "2800",
+        "NLCDESC": "CAPCARD 2 (TEST PURPOSE ONLY)"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": " ",
+        "NLC": "2900",
+        "NLCDESC": "CAPCARD 3A (TEST PURPOSE ONLY)"
+    },
+    {
+        "STANOX": "6221",
+        "UIC": "99980",
+        "3ALPHA": "WES",
+        "NLCDESC16": "WESTERTON",
+        "TIPLOC": "WESTRTN",
+        "NLC": "999800",
+        "NLCDESC": "WESTERTON"
+    },
+    {
+        "STANOX": "6221",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": "WEST530",
+        "NLC": "999815",
+        "NLCDESC": "WESTERTON SIG YH530"
+    },
+    {
+        "STANOX": "6308",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": "WEST533",
+        "NLC": "999816",
+        "NLCDESC": "WESTERTON SIG YH533"
+    },
+    {
+        "STANOX": "6307",
+        "UIC": "99981",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": "WEST536",
+        "NLC": "999817",
+        "NLCDESC": "WESTERTON JN SIG YH536"
+    },
+    {
+        "STANOX": " ",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": " ",
+        "NLC": "999818",
+        "NLCDESC": "WESTERTON JN SIG YH536"
+    },
+    {
+        "STANOX": "6309",
+        "UIC": " ",
+        "3ALPHA": " ",
+        "NLCDESC16": " ",
+        "TIPLOC": "WEST534",
+        "NLC": "999819",
+        "NLCDESC": "WESTERTON SIG YH534"
+    }
+]
+}
