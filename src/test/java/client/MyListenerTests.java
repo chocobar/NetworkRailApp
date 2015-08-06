@@ -50,7 +50,7 @@ public class MyListenerTests {
     @Test
     public void testFilterTrainInformation(){
         List<TrainInformation> trains = myListener.getTrainsInformation(responseJSON);
-        List<TrainInformation> selectedTrainInfo = myListener.filterByStanoxCode("62", trains);
+        List<TrainInformation> selectedTrainInfo = myListener.filterByStanoxGroup("62", trains);
         assertThat(selectedTrainInfo, hasItem(
                 new TrainInformation("871T30MO13", "ARRIVAL", "62203", DateTimeUtils.getTimeFromTimeStamp("1407945750000"), DateTimeUtils.getTimeFromTimeStamp("1407945720000"), "62201", false)
         ));

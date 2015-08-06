@@ -61,7 +61,7 @@ public class TrainInformation {
         return status + (printMoreInfo ? DateTimeUtils.periodFormatter.print(timePeriod.normalizedStandard()) : "");
     }
 
-    public boolean stannoxEquals(String stanox) {
+    public boolean stannoxStartsWith(String stanox) {
         return this.currentStationStanox.startsWith(stanox);
     }
 

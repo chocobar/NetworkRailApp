@@ -22,7 +22,7 @@ public class MyListener implements Listener {
     @Override
     public void message(Map header, String body) {
         JSONArray responses = parseJsonResponse(body);
-        List<TrainInformation> trainInformations = filterByStanoxCode("54", getTrainsInformation(responses));
+        List<TrainInformation> trainInformations = filterByStanoxGroup("54", getTrainsInformation(responses));
 
         printResponse(trainInformations);
     }
@@ -38,10 +38,10 @@ public class MyListener implements Listener {
     }
 
 
-    public List<TrainInformation> filterByStanoxCode(String stanoxCode, List<TrainInformation> unfilteredTrainInformation) {
+    public List<TrainInformation> filterByStanoxGroup(String stanoxCode, List<TrainInformation> unfilteredTrainInformation) {
         List<TrainInformation> trainsInfo = new ArrayList<TrainInformation>();
         for (TrainInformation train : unfilteredTrainInformation) {
-            if (train.stannoxEquals(stanoxCode)) {
+            if (train.stannoxStartsWith(stanoxCode)) {
                 trainsInfo.add(train);
             }
         }

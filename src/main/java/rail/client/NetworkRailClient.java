@@ -21,13 +21,13 @@ public class NetworkRailClient {
     private static final int PORT = 61618;
 
     // Your account username, typically an email address
-    private static final String USERNAME = "priyachandran@gmail.com";
+    private static final String USERNAME = "XXXXXXXXXXXX";
 
     // Your account password
-    private static final String PASSWORD = "dH78JKaCwNQ+gm";
+    private static final String PASSWORD = "XXXXXXXXXXX";
 
     // Example topic (this one is for Southern Train Movements)
-    private static final String TOPIC = "/topic/TRAIN_MVT_EG_TOC";
+    private static final String TOPIC = "/topic/TRAIN_MVT_ALL_TOC";
 
     public static void main(String[] args) throws Exception {
         new NetworkRailClient().go();
